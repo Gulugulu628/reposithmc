@@ -1,0 +1,7 @@
+.last3{
+	text-align: center;/*左右居中*/
+	vertical-align: middle;/*上下居中*/
+	line-height: 200px;
+	font-size: 2em;
+	color: #fff;
+}
