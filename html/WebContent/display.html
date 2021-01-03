@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>布局</title>
+<style type="text/css">
+
+	img{
+		width:300px;
+		display:none;
+		visibility: hidden;
+		/*
+			inline 行级元素 不能设置高宽
+			block 块级元素  可设置高宽
+			inline-block 行内块 可设置高宽
+			none 不显示
+			
+			visibility: hidden; 不可见，但是保留大小位置，不脱离文档流
+		*/
+	}
+	
+	#sp1{
+		width:100px;
+		heigth:100px;
+		display:inline-block;
+		background: green;
+	}
+	
+	li{
+		display:inline-block;
+	}
+
+</style>
+</head>
+<body>
+<span>普通文本标签用于设置文字样式</span>
+<img alt="" src="images/背景图.jpg">
+<span id="sp1">  inenkjdsajfasljkajiofas汉口拉萨解放</span>
+<span>display用于是解放军送</span>
+<ol>
+	<li>hong
+	<li>lv
+	<li>lan
+</ol>
+</body>
+</html>
